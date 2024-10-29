@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+.servicios{
+    width: 100%;
+    height: 100px;
+    justify-items: center;
+    margin-left: 5px;
+    padding-top: 5px; 
+}
+
+.servicios{
+    width: 100%;
+    height: 500px;
+    justify-items: center;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.contenedor_servicios {
+    width: 100%;
+    border: 2px black solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo_servicios{
+    height: 50px;
+    color: black(255, 0, 200);
+    font-size: 32px;
+    margin-top: 25px;
+}
+.texto_contenedores {
+    width: 100%;
+    height: 400px;
+    display: flex; /* Utiliza flexbox para alinear los contenedores */
+    justify-content: space-between; /* Espacio entre los contenedores */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 20px;
+}
+
+.texto_box {
+    flex: 1; /* Cada contenedor ocupa el mismo espacio */
+    padding: 20px;
+    margin: 0 10px; /* Margen entre los contenedores */
+    background-color: #e9ecef; /* Color de fondo de los contenedores de texto */
+    border: 2px black solid;
+}

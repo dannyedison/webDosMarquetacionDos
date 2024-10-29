@@ -1,0 +1,38 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+}
+.acerca{
+    width: 100%;
+    height: 500px;
+    justify-items: center;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.contenedor_acerca{
+    width: 100%;
+    border: 2px black solid;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.titulo_acerca{
+    height: 50px;
+    color: black;
+    font-size: 32px;
+    margin-top: 25px;
+}
+
+.parrafo_acerca{
+    width: 60%;
+    height: 400px;
+    color: black;
+    font-size: 24px;
+    margin-top: 25px;
+}
